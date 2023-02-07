@@ -1,0 +1,146 @@
+/*-----------------------------------*\
+#GOOGLE FONTS
+\*-----------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Mulish:wght@400;600&display=swap');
+
+/*-----------------------------------*\
+#CSS VARIABLES
+\*-----------------------------------*/
+
+:root {
+  /**
+   * colors
+   */
+
+  --primary-color: hsl(160, 97%, 37%);
+  --title-color: hsl(208, 16%, 24%);
+  --text-color: hsl(208, 15%, 28%);
+  --body-color: #fff;
+  --body-color-alt: hsl(160, 16%, 96%);
+
+  /**
+   * typography
+   */
+
+  --body-font: 'Mulish', sans-serif;
+  --second-font: 'Jost', sans-serif;
+
+  --h1-font-size: 50px;
+  --h2-font-size: 40px;
+  --h3-font-size: 18px;
+  --normal-font-size: 15px;
+  --small-font-size: 14px;
+}
+
+/*-----------------------------------*\
+#RESET
+\*-----------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--body-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*-----------------------------------*\
+#RESUABLE CSS CLASSES
+\*-----------------------------------*/
+
+/**
+ * button
+ */
+
+/*-----------------------------------*\
+#HEADER
+\*-----------------------------------*/
+
+/**
+ * active link
+ */
+
+/**
+ * show overlay
+ */
+
+/**
+ * scroll header
+ */
+
+/*-----------------------------------*\
+#HOME
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+#STATS
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+#BREAKPOINTS
+\*-----------------------------------*/
+
+/**
+ * for large devices
+ */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 968px) {
+}
+
+/**
+ * for medium devices
+ */
+
+@media screen and (max-width: 768px) {
+}
+
+/**
+ * for small devices
+ */
+
+@media screen and (max-width: 360px) {
+}
