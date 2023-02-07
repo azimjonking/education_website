@@ -89,17 +89,95 @@ img {
 #RESUABLE CSS CLASSES
 \*-----------------------------------*/
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /**
  * button
  */
+
+ .btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--body-color);
+  padding: 15px 20px;
+  font-family: var(--second-font);
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  border-radius: 4px;
+ }
 
 /*-----------------------------------*\
 #HEADER
 \*-----------------------------------*/
 
+.header {
+  background-color: var(--body-color-alt);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav {
+  height: 81px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 44px;
+}
+
+.nav_logo-img {
+  max-width: 150px;
+}
+
+.nav_item {
+  display: inline-block;
+}
+
+.nav_link {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  margin-right: 30px;
+  transition: 0.3s;
+}
+
+.nav_link:hover {
+  color: var(--primary-color);
+}
+
+.nav_btns {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav_link i {
+  margin-right: 2px;
+  position: relative;
+  top: 1px;
+}
+
+.sign_in,
+.nav_close,
+.nav_toggle {
+  display: none;
+}
+
+
 /**
  * active link
  */
+
+.active-link {
+  color: var(--primary-color);
+}
 
 /**
  * show overlay
